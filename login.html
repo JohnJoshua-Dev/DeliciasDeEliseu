@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilo-login.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>
+        Delicias do Eliseu
+        </h1>
+        
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html#Entrada">Home</a></li>
+                <li><a href="index.html#Encomendar">Encomendar</a></li>
+                <li><a href="index.html#Sobre">Sobre nos</a></li>
+            </ul>
+        </nav>
+            <a href="login.html"><div class="loginBtn">
+                <!-- <div class="login"></div> -->
+                 <img src="icon/do-utilizador.png" alt="" class="icon">
+            </div></a>
+        
+    </header>
+    <div id="body">
+    <div class="container">
+        <h2>Tela de Login</h2>
+        <form action="login.php" method="POST">
+            <div class="formGroup">
+                <label for="user">Usuario</label>
+                <input type="email" id="user" name="user" required placeholder="Digite o teu email">
+            </div>
+            <div class="formGroup">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required placeholder="Digite o teu nr de celular">
+            </div>
+            <div class="BTN">
+                <input type="submit" value="Logar" class="btn">
+            </div>
+        </form>
+        <p> Nao Tens Uma Conta? <a href="index.html#cadastrar">Clica Aqui</a> Para Cadastrar</p>
+    </div>
+    
+    </div>
+</body>
+</body>
+</html>
